@@ -1,2 +1,5 @@
-"%LocalAppData%\Programs\Python\Python39\python.exe" "stop_mining.py"
-pause
+@echo off
+cls
+TITLE NiceHash - Stop Mining
+py "stop_mining.py"
+Timeout /t 60
